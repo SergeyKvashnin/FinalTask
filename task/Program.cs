@@ -15,4 +15,13 @@ void First (string[] mass1, string[] mass2)
     }
 }
 
-
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+First(mass1, mass2);
+PrintArray(mass2);
